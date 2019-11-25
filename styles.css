@@ -1,0 +1,91 @@
+body {
+    background-image: url("brand-collage.jpg");
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-size: 3cm;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: red;
+    background-color: black;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p {
+    font-family: sans-serif;
+    color: red;
+    background-color: black;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1cm;
+}
+
+h3 {
+    font-size: 2cm;
+}
+
+#container {
+    background-color: rgba(203, 255, 182, 0.986);
+    padding-left: 75px;
+    padding-top: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(46, 43, 43);
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+    background-color: rgb(46, 43, 43);
+}
+
+nav ul li a {
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: rgb(97, 94, 94);
+}

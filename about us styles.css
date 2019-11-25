@@ -1,0 +1,83 @@
+body {
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-size: 3cm;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 1cm;
+}
+
+#container {
+    background-color: rgba(203, 255, 182, 0.973);
+    padding-left: 75px;
+    padding-top: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(46, 43, 43);
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+    background-color: rgb(46, 43, 43);
+}
+
+nav ul li a {
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: rgb(97, 94, 94);
+}
+
+ul.names {
+    list-style-type: none;
+}
+
+ul.names li {
+    display: inline;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 120%;
+    text-align: center;
+}
+
+ul.price {
+    list-style-type: none;
+}
+
+ul.price li {
+    display: inline;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+}
